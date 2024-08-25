@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyoba loading animasi</title>
+
+    <style>
+        /* @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .logo {
+            animation: rotate 2s linear infinite;
+        } */
+
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+        /* @keyframes clip {
+            0% {
+                clip-path: circle(0% at 50% 50%);
+            }
+
+            100% {
+                clip-path: circle(75% at 50% 50%);
+            }
+        }
+
+        .logo {
+            animation: clip 0.8s ease-in-out infinite alternate;
+        } */
+
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+        /* @keyframes slide-in {
+            0% {
+                transform: translateY(100%);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            animation: slide-in 1s ease-out infinite alternate;
+        } */
+
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+        @keyframes zoom-pulse {
+
+            0%,
+            100% {
+                transform: scale(0.5);
+            }
+
+            50% {
+                transform: scale(1.5);
+            }
+        }
+
+        .logo {
+            animation: zoom-pulse 1.5s ease-in-out infinite;
+            max-width: 50vw;
+            /* Maksimal lebar adalah 50% dari lebar layar */
+            max-height: 50vh;
+            /* Maksimal tinggi adalah 50% dari tinggi layar */
+            width: auto;
+            /* Sesuaikan lebar secara otomatis */
+            height: auto;
+            /* Sesuaikan tinggi secara otomatis */
+        }
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+        /* @keyframes wipe {
+            0% {
+                clip-path: inset(50% 0 50% 0);
+            }
+
+            100% {
+                clip-path: inset(0 0 0 0);
+            }
+        }
+
+        .logo {
+            animation: wipe 1s ease-out infinite alternate;
+        } */
+
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+        /* @keyframes spin-scale {
+            0% {
+                transform: rotate(0deg) scale(1);
+            }
+
+            50% {
+                transform: rotate(180deg) scale(1.1);
+            }
+
+            100% {
+                transform: rotate(360deg) scale(1);
+            }
+        }
+
+        .logo {
+            animation: spin-scale 2s ease-in-out infinite;
+        } */
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+        /* @keyframes fade-in-out {
+
+            0%,
+            100% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        .logo {
+            animation: fade-in-out 2s ease-in-out infinite;
+        } */
+
+        /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+        /* @keyframes stretch {
+
+            0%,
+            100% {
+                transform: scaleX(1);
+            }
+
+            50% {
+                transform: scaleX(1.2);
+            }
+        }
+
+        .logo {
+            animation: stretch 1.5s ease-in-out infinite;
+        } */
+    </style>
+</head>
+<body>
+        <img src="https://pmo.gsd.co.id/img/logo-defa-circle.png" class="logo" alt="Loading_defa">
+</body>
+</html>
